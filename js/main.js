@@ -659,7 +659,7 @@ var animateReveal = function() {
 						tl2.set(revealContent, { x: 0 });
 						tl2.to(cover, 1, { marginLeft: '102%', ease:Expo.easeInOut });
 					} } )
-			}, heroNum * 0 );
+			}, heroNum * 9 );
 
 			var scene = new ScrollMagic.Scene({
 				triggerElement: this,
